@@ -10,10 +10,10 @@ type Props = {
 export default function BlogCard({ title, date, description, imageSrc }: Props) {
   return (
     <div className="w-full flex flex-col items-center">
-      <div className="w-[393px] flex flex-col">
+      <div className="w-[393px] md:w-[600px] flex flex-col">
         {/* 写真 + 日付 */}
-        <div className="flex flex-col gap-1">
-          <div className="relative h-[300px] overflow-hidden">
+        <div className="flex flex-col gap-2">
+          <div className="relative h-[300px] md:h-[450px] overflow-hidden">
             <Image
               src={imageSrc}
               alt={title}
@@ -33,7 +33,13 @@ export default function BlogCard({ title, date, description, imageSrc }: Props) 
             {title}
           </div>
 
-          <div className="px-5 text-xs whitespace-pre-line leading-relaxed max-w-[320px]">
+          <div className="
+            px-5 
+            text-xs 
+            whitespace-pre-line 
+            leading-relaxed 
+            max-w-[320px] md:max-w-[520px]
+            ">
             {description}
           </div>
         </div>

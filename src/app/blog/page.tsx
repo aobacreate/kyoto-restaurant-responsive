@@ -10,7 +10,7 @@ export default function Blog() {
       <Header title="Blog" />
 
       {/* blog list */}
-      <div className="mt-10 flex flex-col gap-16">
+      <div className="mt-10 md:mt-16 flex flex-col gap-10 md:gap-16">
         {blogItems.map((item) => (
           <BlogCard
             key={item.id}
@@ -23,7 +23,7 @@ export default function Blog() {
       </div>
 
       {/* Footer */}
-      <div className="mt-10">
+      <div className="mt-10 md:mt-16">
         <Footer showMap={false} />
       </div>
     </>

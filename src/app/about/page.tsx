@@ -13,7 +13,7 @@ export default function About() {
       {/* images */}
       <AboutGrid items={aboutItems} />
       {/* Footer */}
-      <div className="mt-10">
+      <div className="mt-10 md:mt-16">
         <Footer showMap={false}/>
       </div>      
     </>

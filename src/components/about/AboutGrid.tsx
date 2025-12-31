@@ -8,7 +8,13 @@ type Props = {
 
 export default function AboutGrid({items} : Props) {
   return (
-    <div className="mt-10 max-w-[316px] mx-auto grid grid-cols-2 gap-x-2">
+    <div className="
+      mt-10 md:mt-16
+      max-w-[316px] md:max-w-[480px] 
+      mx-auto 
+      grid grid-cols-2 gap-x-2
+      md:pl-4
+    ">
       {items.map((item) => (
         <AboutCard
           key={item.id}

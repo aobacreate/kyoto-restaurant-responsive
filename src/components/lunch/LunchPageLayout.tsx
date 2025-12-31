@@ -20,15 +20,15 @@ export default function LunchPageLayout({title, subtitle, items}: Props) {
   return (
     <>
       <Header title="Menu" />
-      <div className="mt-6">
+      <div className="mt-10 md:mt-16">
         <MenuTitle title={title} subtitle={subtitle} />
       </div>
       {/* menu */}
-      <div className="mt-10">
+      <div className="mt-10 md:mt-16">
         <LunchGrid items={items} />
       </div>
       {/* Footer */}
-      <div className="mt-10">
+      <div className="mt-10 md:mt-16">
         <Footer showMap={false}/>
       </div>      
     </>

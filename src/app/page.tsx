@@ -8,13 +8,20 @@ export default function Home() {
   return (
     <>
       <Header title="京都や" />
-      <div className="relative w-full max-w-[393px] h-[320px] overflow-hidden mx-auto mt-6">
+      <div className="
+        relative w-full
+        max-w-[393px] md:max-w-[600px] 
+        h-[320px] md:h-[720px] 
+        overflow-hidden mx-auto mt-10 md:mt-16">
         <Image
           src="/images/seasonal/hero.webp"
           alt="京料理"
           fill
           className="object-cover object-bottom"
-          sizes="(max-width: 393px) 100vw, 393px"
+          sizes="
+          (max-width: 393px) 100vw,
+          (max-width: 768px) 600px, 
+          600px"
           priority
         />
 
@@ -33,11 +40,11 @@ export default function Home() {
       </div>
 
       {/* HomeNavButtons セクション*/}
-      <div className="mt-10">
+      <div className="mt-10 md:mt-16">
         <HomeNavButtons />
       </div>
       {/* Footer */}
-      <div className="mt-10">
+      <div className="mt-10 md:mt-16">
         <Footer />
       </div>      
     </>

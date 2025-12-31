@@ -1,8 +1,8 @@
 export default function AboutText() {
   return (
-    <section className="px-6 w-96 mx-auto mt-6">
-      <div className="flex flex-col justify-start items-center gap-6">
-        <div className="text-xl text-center font-semibold">
+    <section className="px-6 w-96 mx-auto mt-10 md:mt-16">
+      <div className="flex flex-col justify-start items-center gap-10 md:gap-16">
+        <div className="text-xl md:text-2xl text-center font-semibold">
           <p>季節と向き合う</p>
           <p>静かな一皿</p>
         </div>

@@ -12,13 +12,22 @@ export default function Menu() {
         <NavButton href="/menu/seasonal" title="季節限定" subtitle="旬の食材を使った献立"/>
       </div>
       {/* 写真セクション */}
-      <div className="relative w-full max-w-[393px] h-[300px] overflow-hidden mx-auto">
+      <div className="
+        relative w-full 
+        max-w-[393px] md:max-w-[600px] 
+        h-[300px] md:h-[450px]
+        overflow-hidden mx-auto
+        mt-4 md:mt-6
+        ">
         <Image
           src="/images/seasonal/hero.webp"
           alt="京料理"
           fill
           className="object-cover object-center"
-          sizes="(max-width: 393px) 100vw, 393px"
+          sizes="
+          (max-width: 393px) 100vw,
+          (max-width: 768px) 600px, 
+          600px"
           priority
         />
       </div>
