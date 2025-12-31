@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --color-text-primary: #3B2A1A;
+  --color-bg: #ffffff;
+  --color-header-bg: #f3f1ee;
+}
+
+body {
+  min-width: 320px;
+  color: var(--color-text-primary);
+  background: var(--color-bg);
+  font-family: var(--font-shippori), serif;
+}
