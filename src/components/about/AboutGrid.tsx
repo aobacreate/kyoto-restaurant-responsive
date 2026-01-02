@@ -10,10 +10,9 @@ export default function AboutGrid({items} : Props) {
   return (
     <div className="
       mt-10 md:mt-16
-      max-w-[316px] md:max-w-[480px] 
+      max-w-[316px] md:max-w-[480px] lg:max-w-[680px]
       mx-auto 
-      grid grid-cols-2 gap-x-2
-      md:pl-4
+      grid grid-cols-2 gap-x-4 md:gap-x-6
     ">
       {items.map((item) => (
         <AboutCard

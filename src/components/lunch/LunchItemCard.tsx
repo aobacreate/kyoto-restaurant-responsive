@@ -9,7 +9,11 @@ type Props = {
 export default function LunchItemCard({ title, price, imageSrc }: Props) {
   return (
     <div className="flex flex-col items-center">
-      <div className="relative w-[142px] md:w-[216px] aspect-square overflow-hidden">
+      <div className="
+        relative 
+        w-[142px] md:w-[216px] lg:w-[260px] 
+        aspect-square overflow-hidden
+        ">
         <Image
           src={imageSrc}
           alt={title}

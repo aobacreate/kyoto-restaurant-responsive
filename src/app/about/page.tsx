@@ -8,10 +8,12 @@ export default function About() {
   return (
     <>
       <Header title="Menu" />
-      {/* text */}
-      <AboutText />
-      {/* images */}
-      <AboutGrid items={aboutItems} />
+      <main className="mx-auto w-full max-w-[1200px] px-6 md:px-10">
+        {/* text */}
+        <AboutText />
+        {/* images */}
+        <AboutGrid items={aboutItems} />
+      </main>
       {/* Footer */}
       <div className="mt-10 md:mt-16">
         <Footer showMap={false}/>
