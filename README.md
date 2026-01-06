@@ -1,5 +1,6 @@
 # Kyoto Restaurant Responsive
-- 京都レストランを想定した、スマートフォン・タブレット・デスクトップ向けのレスポンシブWebサイトです。- Next.js と Tailwind CSS を用いて実装し、Vercel へデプロイしています。
+- 京都レストランを想定した、スマートフォン・タブレット・デスクトップ向けのレスポンシブWebサイトです。
+- Next.js と Tailwind CSS を用いて実装し、Vercel へデプロイしています。
 
 ## 🔗 公開URL
 - [Webサイト（Vercel）](https://kyoto-restaurant-responsive.vercel.app)
