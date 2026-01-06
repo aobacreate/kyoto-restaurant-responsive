@@ -43,6 +43,7 @@ Next.js と Tailwind CSS を用いて実装し、Vercel へデプロイしてい
 
 Figma：  
 https://www.figma.com/design/01ngSIscCLz5GOp0shBj5N/-%E5%85%AC%E9%96%8B%E7%94%A8--%E4%BA%AC%E9%83%BD%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3web%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3?node-id=8-64&t=FzlIC7zWxHXGDSVv-1
+
 ---
 ## 🚀 ローカルでの起動方法
 
