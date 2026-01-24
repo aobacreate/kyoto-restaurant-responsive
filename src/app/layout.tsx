@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "京都や｜京料理のおもてなし",
   description:
     "京都・東本願寺近くの京料理店「京都や」。季節の食材を活かしたお料理でおもてなしいたします。",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
